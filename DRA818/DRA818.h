@@ -33,7 +33,7 @@ class DRA818 {
         void setRXCTCSS(uint8_t rx_ctcss);
         void setSquelch(uint8_t sql);
         void setVolume(uint8_t vol);
-        void setFilters(uint8_t preemph, uint8_t highpass, uint8_t lowpass);
+		void setFilters(boolean preemph, boolean highpass, boolean lowpass);
         void writeFreq();
 
     private:
